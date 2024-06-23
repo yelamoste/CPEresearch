@@ -1,0 +1,84 @@
+
+nav{
+    background-color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30 px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover{
+    background-color: f0f0f0;
+    color: #DC8116;
+
+}
+
+.navbar-brand .text {
+ color: #DC8116;
+}
+
+.rightbox {
+    width: auto;
+    height: 850px; /* for display only need pa baguhin */
+    background-color: white;
+    border: 1px black solid;
+    margin: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.left-bar {
+    border-left: 4px solid #DC8116; 
+}
+
+.heading-with-line {
+    border-bottom: 5px solid #DC8116; 
+    padding-bottom: 5px; 
+}
+
+.bi-arrow-left-circle-fill {
+    color: black;
+}
+
+.bi-book-half {
+    color: #DC8116;
+    font-size: 2.5rem;
+}
+.bi-person-circle {
+    color:#DC8116;
+    font-size: 2.5rem; 
+}
+
+.bi-person-fill{
+    color: dimgrey;
+    font-size: 2rem;
+}
+
+#acceptedBadge {
+    font-size: 1.25rem; /* Adjust the font size as needed */
+    padding: 0.35rem 0.75rem; /* Adjust the padding as needed */
+}
+
+#rejectedBadge {
+    font-size: 1.25rem; /* Adjust the font size as needed */
+    padding: 0.35rem 0.75rem; /* Adjust the padding as needed */
+}
+
+#acceptedbadge {
+    font-size: 1rem; /* Adjust the font size as needed */
+    padding: 0.35rem 0.75rem; /* Adjust the padding as needed */
+}
+
+#rejectedbadge {
+    font-size: 1rem; /* Adjust the font size as needed */
+    padding: 0.35rem 0.75rem; /* Adjust the padding as needed */
+}
+

@@ -1,0 +1,754 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+:root {
+    --primary: #667080;
+    --secondary: #EEF1F4;
+    --gray-400: #CED4DA;
+    --fulvous-primary: #DC8116;
+}
+body {
+    background-color: #F8F8FF;
+}
+
+
+/* for faculty main */
+
+
+.faculty-main-block {
+    background-color: aqua; 
+    height: 100%; 
+    width: 30%; 
+    text-align: center;
+
+}
+
+/* navigation bar */
+
+.navbar {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    background-color: #ffff;
+    border-bottom: 1px solid var(--gray-400);
+    /* for visualization //temp */
+    /* background-color:  */
+    /* border-bottom: ; */
+}
+#navbar-cmpe-logo {
+   height: 30px;
+   width: 30px; 
+   margin-left: 60px;
+   /* for visualization // temp */
+
+}
+#navbar-header {
+    font-size: 15px;
+    font-family: 'InterExtraBold';
+    color: var(--fulvous-primary);
+    margin-left: 10px;
+}
+a {
+    font-size: 14px;
+    font-family: 'InterLight';
+    text-decoration: none;
+    color: #2F2F2F;
+    }
+.navbar span{
+    width: 70%;
+    text-align: right;
+    margin-right: 10px;
+}
+.navbar .profile {
+    margin-left: 2%;
+}
+.navbar .profile img {
+    height: 30px;
+    width: 30px;
+}
+
+
+/* MOR PAGE 10 */
+
+/* content container */
+
+.content {
+    height: 80vh;
+    width: 80vw;
+    background-color: beige;
+    left: 10vw;
+    top: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;   
+}
+.title-header-content{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 3px solid var(--fulvous-primary);
+
+    /* background-color: aqua; */
+}
+#return-button {
+    height: 27px;
+    width: 27px;
+}
+/* button {
+    border:none;
+} */
+#title-header {
+    font-size: 20px;
+    font-family: 'InterBold';
+    margin-left: 10px;
+    /* margin-top: 5px; */
+}
+
+.research-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+.research-details{
+    width: 53%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.research-brief-details-cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+    border-bottom: 0.75px solid var(--gray-400);
+}
+.research-brief-details {
+    display: flex;
+    /* background-color: brown; */
+    height: 100px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+p.research-brief-details {
+    padding: 5px;
+    margin: 5px;
+}
+.info-sub-title {
+    font-family: 'InterSemiBold';
+    font-size: 12px;
+    margin-right: 10px;
+
+}
+.details {
+    font-family: 'InterRegular';
+    font-size: 12px;
+    top: 5px;
+}
+
+.research-brief-details-members{
+    width: 37%;
+    margin: 10px;
+}
+.research-brief-details-sub-title{
+    width: 55%;
+    margin: 10px;
+}
+.update-info {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.update-info a {
+    font-family: 'InterLight';
+    font-size: 12px;
+    color: #0D6EFD;
+    margin-bottom: 20px;
+}
+.research-preview {
+    width: 35%;
+    height: 70vh;
+    background-color: #2F2F2F;
+    /* background-image: url(../img/frontpage.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+    margin-right: 50px;
+}
+iframe {
+    height: 100%;
+    width:100%;
+}
+.research-proposes-cont {
+    font-family: 'InterSemiBold';
+    font-size: 12px;
+    margin: 10px;
+    margin-right: 0px;
+}
+.research-title-cont {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 3px solid var(--fulvous-primary);
+    padding-left: 10px;
+    border-bottom: 0.5px solid #c1c1c1;
+    
+}
+.research-title-cont-cont   {
+    display: flex;
+    width: 100%;
+}
+.display-result-title {
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 20px;
+    border-radius: 2px;
+    padding: 4px;
+    color: #ffff;
+    font-family: 'InterBold';
+    font-size: 10px;
+}
+.research-result-cont {
+    display: flex;
+}
+#title-accepted {
+    background-color: #198754;
+}
+#title-rejected {
+    background-color: #DC3545;
+    padding-left: 5px;
+    padding-right: 6px;
+}
+.view , .remove {
+    border: none;
+    margin: 10px;
+    color: #0D6EFD;
+    cursor: pointer;
+}
+
+/* MOR PAGE 11 */
+#title-header-content-page11{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#title-header-proposal {
+    font-size: 14px;
+    font-family: "InterExtraBold";
+    margin-right: 10px;
+    width: 22vw;
+    margin-top: 2.5px;
+}
+.title-header-content #title-header-info  {
+    font-size: 18px;
+    font-family: "InterBold";
+}
+.cont-cont {
+    display: flex;
+    justify-content: space-between;
+} 
+.comment-recommendation-cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60%;
+}
+#com-rec-p {
+    margin: 10px;
+    margin-left: 0px;
+}
+.comments-cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 5px;
+}
+.comments-cont img{
+    height: 25px;
+    width: 25px;
+}
+.profile-name-comment {
+    font-size: 12px;
+    font-family: "InterSemiBold";
+    margin-left: 10px;
+}
+.comment-date{
+    font-size: 8px;
+    font-family: "InterLight";
+    color: var(--primary);
+    margin-left: 10px;
+}
+.comment-cont-info {
+    font-family: "InterRegular";
+    font-size: 12px;
+    margin-left: 35px;
+}
+.reply-button, .fulvuos-button {
+    border: none;
+    cursor: pointer;
+}
+.reply-button{
+    font-size: 11px;
+    color: var(--primary);
+    margin-left: 35px;
+    font-family: "InterLight";
+}
+textarea {
+    font-family: "InterRegular";
+    font-size: 10px;
+    width: 50%;
+    height: 50%;
+    margin-left: 10px;
+}
+.fulvuos-button{
+    color: white;
+    font-size: 10px;
+    background-color: var(--fulvous-primary);
+    border-radius: 2px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.approval-cont {
+    width: 40%;
+    
+}
+#approval-responses-title {
+    margin: 10px;
+    margin-left: 0;
+}
+.research-advisor-cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.cat-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--primary);
+}
+.research-advisor-title {
+    margin: 5px;
+}
+.faculty-name-section {
+    font-size: 12px;
+    font-family: "InterRegular";
+    margin-left: 10px;
+}
+.faculty-section-response {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: "InterRegular";
+    height: 30px;
+}
+
+
+
+/* MOR PAGE 12 */
+
+
+.main-cont {
+    width: 80vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.title-cont {
+    display: flex;
+    align-items: center;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+}
+
+.title-cont .title-back {
+    margin-right: 30px;
+    height: 27px;
+    width: 27px;
+}
+
+.title-cont h1 {
+    font-family: "InterBold";
+    font-size: 20px;
+}
+
+
+.content-cont {
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: #00000026 0px 8px 16px 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    height: 70vh;
+}
+
+.content-cont h2 {
+    font-family: "InterBold";
+    font-size: 18px;
+}
+
+.content-cont hr {
+    background-color: var(--fulvous-primary);
+    height: 2px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-cont .details-cont {
+    display: flex;
+
+}
+.research-panelist-cont {
+    display: flex;
+    margin: 10px;
+    font-family: "InterRegular";
+    font-size: 12px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.research-panelist {
+    width: 50%;
+}
+
+
+.content-cont .details-cont p {
+    font-family: InterSemiBold;
+    font-size: 14px;
+}
+
+.content-cont .details-cont p span {
+    color: #DC3545;
+}
+
+.content-cont .details-cont .description {
+    font-family: InterRegular;
+    font-size: 12px;
+    color: #6C757D;
+}
+
+.content-cont .details-cont .details-panelist-cont,
+.details-submission-cont {
+    width: 50%;
+}
+
+.details-submission-cont textarea {
+    resize: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    font-family: 'InterRegular';
+    font-size: 16px;
+    border-radius: 5px;
+    border: solid var(--gray-400) 2px;
+    color: #212529;
+    padding: 5px;
+    width: calc(100% - 14px);
+    height: 100px;
+}
+
+.details-submission-cont .details-action-cont {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 40px;
+}
+
+.details-submission-cont .details-action-cont .details-action-clear {
+    width: 100px;
+    height: 30px;
+    font-family: InterSemiBold;
+    font-size: 12px;
+    color: var(--fulvous-primary);
+    background-color: white;
+    border: 2px solid var(--fulvous-primary);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+  
+}
+
+.details-submission-cont .details-action-cont .details-action-submit {
+    width: 100px;
+    height: 30px;
+    font-family: InterSemiBold;
+    font-size: 12px;
+    color:white;
+    background-color:  var(--fulvous-primary);
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+   
+}
+
+/* FACULTY */
+/* FACULTY 6.5 CSS */
+
+.elib-content {
+    width: 48%;
+    /* background-color: #0D6EFD; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: column;
+    
+}
+.research-abstract-preview {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* background-color: #198754; */
+}
+#faculty-adviser-review-thesis {
+    justify-content: space-between;
+}
+#faculty-adviser-review-thesis-elib-cont {
+    border: none;
+}
+#elib-content-details{
+    padding: 10px;
+    text-align: justify;
+}
+.elib-subcont-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+.authors-cont, .other-info-cont{
+    width: 45%;
+}
+#submit-elib {
+    background-color: var(--fulvous-primary);
+    color: var(--secondary);
+    padding: 3px;
+    cursor: pointer;
+    border: none;
+}
+.review-thesis-title {
+    font-family: "InterSemiBold";
+    font-size: 16px;
+    margin: 10px;
+    text-align: justify;
+}
+.review-thesis-citation {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 10px;
+    font-family: "InterLight";
+    font-size: 12px;
+}
+#thesis-author {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.citation-author {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+}
+#citation-author, #citation-date {
+    margin-left: 10px;
+    width: 90%;
+    text-align: justify;
+}
+
+.citation-date {
+    display: flex;
+    align-items: center;
+}
+.thesis-abstract {
+    margin-top: 10px;
+    height: 70%;
+}
+p#thesis-abstract-title {
+    margin-left: 10px;
+}
+p.thesis-abstract {
+    margin-left: 10px;
+    overflow-y: scroll;
+    text-align: justify;
+    font-family: "InterRegular";
+    font-size: 12px;
+    height: 90%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10%;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--fulvous-primary);
+    border-radius: 12%;
+    
+}
+
+
+/* Success Page */
+.return-button {
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.info-success{
+    font-family: "InterSemiBold";
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.back-button {
+    border: none;
+    background-color: var(--fulvous-primary);
+    color: var(--secondary);
+    font-family: "InterRegular";
+    font-size: 12px;
+    padding: 5px 20px 5px 20px;
+}
+
+
+
+
+
+
+
+/* VIEWPORT */
+
+
+@media screen and (max-width: 768px ) {
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    height: 7vh;
+}
+#navbar-cmpe-logo {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
+#navbar-header{
+    font-size: 12px;
+    width: 40%;
+}
+.navbar span{
+    width: 38%;
+    margin-right: 10px;
+}
+a {
+    font-size: 12px;
+}
+.navbar .profile{
+    width: 7%;
+}
+.navbar .profile img{
+    height: 25px;
+    width: 25px;
+}
+
+
+/* Elibrary 6.5 */
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    height: max-content;
+    padding-bottom: 20px
+
+}
+.elib-content {
+    width: 100%;
+
+}
+.research-abstract-preview {
+    width: 100%;
+    border: 0.025px solid var(--gray-400);
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+p.thesis-abstract{
+    overflow-y: hidden;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+#submit-elib {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 12px;
+
+}
+.details{
+    font-size: 13px;
+}
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: 'InterRegular';
+    src: url(../css/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(../css/fonts/Inter/static/Inter-Regular.ttf);  
+} 
+@font-face {
+    font-family: 'InterThin';
+    src: url(../css/fonts/Inter/static/Inter-Thin.ttf);
+}
+@font-face {
+    font-family: 'InterMedium' ;
+    src: url(../css/fonts/Inter/static/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: 'InterLight';
+    src: url(../css/fonts/Inter/static/Inter-Light.ttf);
+}
+@font-face {
+    font-family: 'InterExtraLight';
+    src: url(../css/fonts/Inter/static/Inter-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'InterExtraBold';
+    src: url(../css/fonts/Inter/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'InterBold';
+    src: url(../css/fonts/Inter/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'InterSemiBold';
+    src: url(../css/fonts/Inter/static/Inter-SemiBold.ttf);
+}

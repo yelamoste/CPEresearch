@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif; 
+}
+
+body{
+    background-color: #F8F8FF;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-size: cover;
+}
+
+.header {
+    height: 3.4rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-color:  #343A40;   
+    border-bottom: 0.5rem;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    z-index: 100;
+}
+
+.navcont{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.cpelogo{
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.booklogo {
+    height: 2rem;
+    width: 2rem;
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+.accountlogo {
+    height: 2rem;
+    width: 2rem;
+    font-size: 2rem;
+    padding-top: 0.24rem;
+}
+.search-input {
+    width: 20rem;
+}
+
+.custom-select {
+    border: none;
+    width: 7.5rem;
+    margin-right: 1rem;
+}
+#navSelect {
+    width: 7.5rem;
+    border: none;
+    background-color: ghostwhite;
+    color: #2f2f2f;
+    margin-right: 1.5rem;
+}
+.list-filter select {
+    width: 12rem;
+}
+.list-filter select:focus{
+    box-shadow: none;
+}
+
+.proposal-btn:active, .proposal-btn:focus, .proposal-btn::after, .proposal-btn:enabled {
+    border: none;
+}
+.proposal-btn:hover {
+    background-color: pink;
+}
+
+.sub-title p {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.vl span {
+    font-weight: 100;
+}
+.proposal-list {
+    height:58vh;
+    overflow-y:auto;
+    scrollbar-width: none;
+}
+.notif-list {
+    height:70vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.notif-card:hover {
+    background-color: #E9ECEF;
+    cursor: pointer;
+}
+
+/* Breakpoints */
+@media (max-width: 320px) {
+    .container-fluid {
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 0;
+    }
+}
+@media (max-width: 531px) {
+    .cpelogo {
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width: 517px) {
+    .cpelogo {
+        display: none;
+    }
+    #navSelect {
+        display: none;
+    }
+}
+
+
+
+

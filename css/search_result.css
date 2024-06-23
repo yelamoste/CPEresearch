@@ -1,0 +1,56 @@
+.body {
+    background-color: ghostwhite;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    overflow-y: hidden;
+  }
+
+.container {
+    margin-top: 20px;
+    padding: 0%;
+}
+.btnback:hover {
+    background-color: #C67414;
+}
+
+.d-flex .inputsearchbar {
+    background-color: ghostwhite;
+}
+
+.searchfilter {
+    height:85vh;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.searchresult {
+    height: 85vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.yearfilter .form-select {
+    background-color: ghostwhite;
+}
+.bi-file-earmark-text{
+    height: 30px;
+    width: 30px;
+    color: #DC8116;
+}
+.cont-result1 .frame3 {
+    letter-spacing: 0.4;
+}
+
+.vl {
+    font-weight: 600;
+    color: #CED4DA;
+}
+.col-auto span {
+    font-weight: 600;
+    color: #2f2f2f;
+}
+.abstract {
+    text-align: justify;
+}
+.searchresult-box:active {
+    border-color: #DC8116;
+}

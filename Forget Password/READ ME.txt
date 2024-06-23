@@ -1,0 +1,40 @@
+necessary files:
+
+index.php
+PHPMailer
+functions.php
+forgotPassword.php
+header.php
+mailer.php
+sendPasswordReset.php
+resetPassword.php
+processResetPassword.php
+
+
+Notes:
+
+	-Use database-changes.sql for altering faculty and student tables.
+
+	-Insert files from php folder to `main` php folder in CPE Research file system.
+
+	-I can't use the composer, i used the other option for PHPMailer.
+
+
+
+File system organization:
+
+CPEresearch (folder)
+	-php (folder) //insert the following:
+		>functions.php (already exist)
+		>header.php (already exist)
+		>mailer.php
+		>FacultyforgotPassword.php
+		>FacultysendPasswordReset.php
+		>FacultyresetPassword.php
+		>FacultyprocessResetPassword.php
+		>StudentforgotPassword.php
+		>StudentsendPasswordReset.php
+		>StudentresetPassword.php
+		>StudentprocessResetPassword.php
+	-PHPMailer (folder)
+

@@ -1,0 +1,35 @@
+//custom variables
+$primary: #DC8116;
+$secondary: #1671DC;
+$jet: #2F2F2F;
+$ghostWhite: #F8F8FF;
+$gray400: #CED4DA;
+$approved: #198754;
+$rejected: #dc3545;
+$pending: #FFC107;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "jet": $jet,
+  "ghostwhite": $ghostWhite,
+  "gray400": $gray400,
+  "approved": $approved,
+  "rejected": $rejected,
+  "pending":$pending
+);
+
+//import the functions and variables 
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+//import 
+@import '../node_modules/bootstrap/scss/accordion';
+@import '../node_modules/bootstrap/scss/alert';
+@import '../node_modules/bootstrap/scss/badge';
+@import '../node_modules/bootstrap/scss/buttons';
+@import '../node_modules/bootstrap/scss/containers';
+

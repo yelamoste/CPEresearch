@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(/font/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(/font/Inter-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(/font/Inter-ExtraBold.ttf);
+    font-weight: 800;
+}
+  
+body{
+    background-color: pink;
+    min-height: 100vh;
+    font-family: 'Inter';
+    overflow-y: hidden;
+}
+.container-flex {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+.img-fluid{
+    height: 100vh;
+    object-fit: cover;
+}
+
+.cpeImage {
+    border-radius: 50%;
+    height:121px;
+}
+
+
+
+
+

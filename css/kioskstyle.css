@@ -1,0 +1,37 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+/* kiosk.html - thesis_paper*/
+
+  .row mb-4 {
+    width: 80%;
+  }
+  .form-control:focus {
+    box-shadow: none;
+    margin-right: 0 ;
+  }
+  
+  body {
+    background: ghostwhite;
+    min-height: 100vh;
+    font-family: "Inter";
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #CEd4da;
+    font-weight: 600;
+
+  }
+
+  .container {
+    width: 200px;
+  }
+
+  form.btnSearch {
+
+  }
